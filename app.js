@@ -8,7 +8,7 @@ app.use(express.urlencoded({ extended: true }));
 app.listen(port, (err) => {
     if (err) {
         return console.log('Something bad happened', err);
-    }
+    } 
     console.log(`Server is listening on ${port}`);
 });
 
